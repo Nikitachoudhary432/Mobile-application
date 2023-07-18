@@ -1,0 +1,77 @@
+.Mains{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.BilllsPage {
+    padding-top: 60px;
+}
+.Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-top: 20px 10px;
+}
+
+.grid-cell-1 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+
+}
+
+.grid-cell-2 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.grid-cell-3 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.grid-cell-4 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.grid-cell-5 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.grid-cell-6 {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+}
+
+.Name h1{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #322D2D;
+}
+.active{
+    color: #F85010;
+}
+p.active{
+    color: #F85010;
+}
+.utility-icon-box {
+    background: #e7e4e461;
+    border-radius: 24px;
+    padding: 25px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 7px;
+}

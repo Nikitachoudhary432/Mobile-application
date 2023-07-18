@@ -1,0 +1,26 @@
+/* .Add-fund {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+
+.Add-fund {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.Form-group {
+    padding-top: 30px;
+    margin: 10px 25px;
+}
+.Form-group input {
+    background: #FFFFFF;
+    border: none;
+    padding-left: 20px;
+    width: 100%;
+}

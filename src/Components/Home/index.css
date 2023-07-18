@@ -1,0 +1,345 @@
+.Homepage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+.main-cls{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.bar-info {
+    display: flex;
+}
+
+/* .burger {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #7D7D7D;
+    border-radius: 28px;
+    background: #FFFFFF;
+    margin: 0px 10px;
+
+} */
+nav.navbar.navbar-expand-lg.navbar-light.bg-white.shadow-md {
+    border: 2px solid #bdb9b9;
+    border-radius: 28px;
+    padding: 2px; 
+    margin: 0px 10px;
+
+}
+
+
+
+.strip div {
+    height: 2px;
+    border-radius: 2px;
+    margin: 7px;
+    background: #322D2D;
+    border-radius: 1px;
+
+}
+
+.burger-strip div:first-child {
+    width: 16px;
+}
+
+.burger-strip div:last-child {
+    width: 20px;
+}
+/* 
+.burger:hover .burger-strip div:first-child {
+    transform: rotate(45deg) translateY(1px) translateX(5px);
+}
+
+.burger:hover .burger-strip div:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+.burger:hover .burger-strip div:last-child {
+    transform: rotate(45deg) translateY(-13px) translateX(2px);
+} */
+
+.User h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #7D7D7D;
+    margin: 0%;
+}
+
+.User h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.2;
+    color: #322D2D;
+    margin: 0px;
+}
+
+.User-image img {
+    width: 56px;
+    height: 56px;
+    margin: 0px 10px;
+
+}
+
+.Welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.Balance-Card {
+    position: relative;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+/* .Card {
+    background-image: url(./../../../public/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+
+.Balance-Card img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+}
+
+.Balance-Card h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+    padding-top: 30px;
+}
+
+.Balance-Card h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 0px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.fund {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-decoration: none !important;
+
+}
+
+.fund h3 {
+    padding: 12px 20px;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    border-radius: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.Transaction h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #322D2D;
+    padding-top: 60px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-D {
+    background: #FFF8F5;
+    border: 1px solid #FCB69C;
+    border-radius: 20px;
+}
+
+.card1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    text-align: left;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    text-align: left;
+}
+.button5 h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 7px 5px;
+}
+
+.detail h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #322D2D;
+}
+
+.detail p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.5;
+    color: #7D7D7D;
+}
+
+.detail1 h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #F85010;
+}
+
+.detail1 p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.5;
+    color: #7D7D7D;
+}
+
+.detail2 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1;
+    color: #322D2D;
+}
+
+.detail2 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.5;
+    color: #7D7D7D;
+}
+.detail3 h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 1;
+    color: #322D2D;
+    /* padding-left: 15px; */
+}
+
+.detail3 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.5;
+    color: #7D7D7D;
+    /* padding-left: 15px; */
+}
+
+.button {
+    display: flex;
+    padding: 0px 20px;
+    background: #F85010;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.button h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+
+.cardBar {
+    background: #F7FDFC;
+    border: 1px solid #AEEADD;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.Detail h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #2FB396;
+}
+
+.Detail p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #7D7D7D;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #F7FDFC;
+    background: #FFFFFF;
+    border-radius: 0px;
+    height: 50px;
+    width: 100%;
+    padding: 30px 20px;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+i.fa.fa-home.active {
+    color: #F85010;
+    font-size: 30px;
+}
+
+.menu-bar i {
+    font-size: 20px;
+    color: #867f7f;
+}
+
+.menu-bar p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 120%;
+    text-align: center;
+    color: #322D2D;
+}
+.img-btn {
+    width: 20px;
+    height: 20px;
+    padding: 10px 0px;
+}
+.button5 h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}

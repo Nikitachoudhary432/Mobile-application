@@ -1,0 +1,19 @@
+
+
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F85010;
+    width: 100%;
+    height: 100vh;
+}
+
+.ellipse {
+    background: #FFFFFF;
+    width: 232px;
+    height: 232px;
+    border-radius: 120PX;
+    opacity: 0.5;
+}
+

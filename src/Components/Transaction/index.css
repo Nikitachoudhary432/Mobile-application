@@ -1,0 +1,157 @@
+.mains{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    
+}
+.Transaction {
+    margin: 10px;
+    padding: 30px 0px 50px 0px;
+}
+.TransactionPage {
+    padding-top: 30px;
+    
+}
+.card-D {
+    background: #FFF8F5;
+    border: 1px solid #FCB69C;
+    border-radius: 20px;
+    margin:  15px;
+}
+.card-S{
+    background: #F7FDFC;
+    border: 1px solid #AEEADD;
+    border-radius: 20px;
+    margin:  15px;
+}
+.card-S .button{
+    display: flex;
+    padding: 0px 20px;
+    background: #2FB396;
+    border-radius: 0px 0px 20px 20px;
+}
+.card-W{
+    background: #fefff4;
+    border: 1px solid #e1d61c;
+    border-radius: 20px;
+    margin:  15px;
+}
+.card-W .button{
+    display: flex;
+    padding: 0px 20px;
+    background: #e1d61c;
+    border-radius: 0px 0px 20px 20px;
+}
+.card1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 0px;
+    text-align: left;
+}
+.card-S .detail5 h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #2FB396;
+}
+.detail5 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.5;
+    color: #7D7D7D;
+}
+.card-W .detail8 h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #f6df0f;
+}
+.card-S .detail5 h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #2FB396;
+}
+.card-D .detail1 h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #F85010;
+}
+.detail8 p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0.5;
+    color: #7D7D7D;
+}
+.button5 {
+    display: flex;
+    padding: 0px 20px;
+    background: #2FB396;
+    border-radius: 0px 0px 20px 20px;
+}
+.button5 h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+}
+.button5 i{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 7px 5px;
+}
+i.fa.fa-calendar.active {
+    color: #F85010;
+}
+button.btn.bttn-warning {
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: #F85010;
+    background: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+button.btn.bttn-warning.active{
+    width: 80px;
+    height: 40px;
+    border: none;
+    background: #F85010;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+}
+.button8 {
+    display: flex;
+    padding: 0px 20px;
+    background: #f6df0f;
+    border-radius: 0px 0px 20px 20px;
+}
+.button8 h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+
+}

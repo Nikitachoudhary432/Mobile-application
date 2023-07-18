@@ -1,0 +1,90 @@
+.Noticication {
+    /* margin-top: 10px; */
+    padding-top: 20px;
+}
+.NotificationPage {
+    text-align: left;
+    padding-top: 65px;
+    margin: 10px;
+}
+.Today h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #322D2D;
+}
+
+.Trans1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Trans1 img {
+    padding-bottom: 36px;
+}
+
+.Trans1 h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #322D2D;
+    margin: 10px;
+}
+
+.Trans1 p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #7D7D7D;
+    margin: 10px;
+}
+
+.Yesterday {
+    padding-top: 20px;
+}
+.Yesterday h1 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #322D2D;
+}
+
+.Trans {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TranImg {
+    background: #E8F3FC;
+    border: 1px solid #E8F3FC;
+    border-radius: 12px;
+    height: 50px;
+    width: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.TranImg img {
+    text-align: center;
+}
+
+.Trans h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #322D2D;
+    margin: 10px;
+}
+.Trans p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    color: #7D7D7D;
+    margin: 10px;
+}
+i.active {
+    color: #F85010;
+}

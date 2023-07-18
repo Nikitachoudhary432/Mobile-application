@@ -1,0 +1,143 @@
+.profile h1 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: center;
+    color: #322D2D;
+    margin-top: 20px;
+
+}
+
+.profile-info {
+    text-align: center;
+}
+
+.user-img img {
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+}
+
+.user-img h1 {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.5;
+    text-align: center;
+    color: #322D2D;
+
+}
+
+.user-img p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    color: #7D7D7D;
+}
+
+.user-detail {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+}
+
+.Bank-detail h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #322D2D;
+}
+
+.Bank-detail .p {
+    background: #FFFFFF;
+    border: 1px solid #E7E4E4;
+    border-radius: 30px;
+}
+
+.Bank-detail p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #322D2D;
+    padding: 12px 30px;
+    margin: 0px;
+}
+
+.info-user {
+    display: flex;
+    margin: 15px 0px;
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+
+.info-user img {
+    width: 30px;
+    height: 30px;
+}
+
+.info-user h4 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #322D2D;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.info-user input {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #E7E4E4;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+.info-user input:focus{
+    outline: none;
+}
+.info-user input:focus::placeholder {
+    color: transparent;
+  }
+
+.backButton {
+    display: flex;
+    margin: 10px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.backButton button {
+    text-decoration: none;
+    color: #322D2D;
+    border: 1px solid #E7E4E4;
+    border-radius: 50px;
+    background: #FFFFFF;
+}
+
+.backButton i {
+    color: #322D2D;
+    padding: 10px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.backButton h1 {
+    width: 60%;
+    align-items: center;
+    text-align: center;
+}
+.Strip {
+    /* margin-top: -5px; */
+    /* padding: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 8px 10px; */
+    border: 1px solid;
+    border-radius: 70px;
+}
